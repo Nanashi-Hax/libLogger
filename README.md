@@ -1,1 +1,5 @@
-# libLogger
+# API
+
+```cpp
+#include <Logger.hpp>
+```
