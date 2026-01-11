@@ -8,5 +8,5 @@ namespace Logger
 
     void Shutdown() {}
     
-    void Printf(std::string msg) { std::cout << msg << std::endl; }
+    void Print(std::string msg) { std::cout << msg << std::endl; }
 };

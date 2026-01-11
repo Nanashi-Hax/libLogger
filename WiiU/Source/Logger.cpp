@@ -9,5 +9,5 @@ namespace Logger
 
     void Shutdown() { WHBLogUdpDeinit(); }
     
-    void Printf(std::string msg) { WHBLogPrintf("%s", msg.c_str()); }
+    void Print(std::string msg) { WHBLogPrintf("%s", msg.c_str()); }
 };
